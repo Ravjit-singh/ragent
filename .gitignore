@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+
+# Database and Memory (Crucial to ignore for JARVIS)
+data/
+*.sqlite
+*.sqlite-journal
+*.db
+*.lance/
+
+# OS and Build files
+.DS_Store
+hardware/build/
